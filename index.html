@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS  basics</title>
+  <link rel="stylesheet" href="input.css">
+</head>
+<body class="bg-blue-200 font-serif">
+    <nav class="bg-blue-400 flex justify-between">
+        <!-- <img src="https://randomuser.me/api/portraits/women/10.jpg" class="h-12 pt-3 px-3 rounded-3xl"> -->
+        <span class="text-xl flex items-center font-bold pl-9 text-white">BESTPHONE</span>
+        <ul class="flex text-white space-x-5 justify-end px-28 py-4">
+            <li class="mx-1 cursor-pointer">HOME</li>
+            <li class="mx-1 cursor-pointer">ABOUT US</li>
+            <li class="mx-1 cursor-pointer">CONTACT US</li>
+            <li class="mx-1 cursor-pointer" >SERVICES</li>
+        </ul>
+    </nav>
+    <main class="flex">
+        <div class="p-10 pl-9 flex items-center">
+            <img src="phone.webp" alt="Phone logo" class="max-h-40">
+        </div>
+        <div class="main h-700 pl-9">
+            <div class="text-custom pl-9 text-white">BEST PHONES</div>
+            <p class="py-3 text-yellow-800">
+                &Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugit eveniet reiciendis beatae, quia voluptates ipsam consectetur earum nostrum quisquam odit velit alias sit ea doloremque rerum facilis necessitatibus pariatur!
+            </p>
+            <div class="buttons">
+                <button type="button" class="btn-success">Buy Now</button>
+                <button type="button" class="btn-primary">Book Now</button>
+                <!-- <button class="bg-blue-600 rounded-lg hover:bg-blue-400 hover:text-white p-2 border-2 border-slate-300 hover:border-black" >Book Now</button>
+                <button class="bg-red-400 rounded-lg hover:bg-blue-300 hover:text-white p-2 border-2 hover:border-black border-slate-300">Buy Now</button> -->
+            </div>
+        </div>
+    </main>
+</body>
+</html>
